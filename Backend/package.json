@@ -1,0 +1,17 @@
+{
+  "name": "First-Project-Node-React-Native",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cesargos/First-Project-Node-React-Native.git",
+  "author": "Cesar Goulart <devcesargoulart@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
