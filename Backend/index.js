@@ -65,7 +65,7 @@ app.get('/projects/:id', checkProjectInArray, (req, res) => {
 
   return res.json( projects[req.index]);
 });
-
+ 
 app.put('/projects/:id', checkProjectInArray, (req, res) => {
   const { id } = req.params;
   const {title, owner} = req.body;
